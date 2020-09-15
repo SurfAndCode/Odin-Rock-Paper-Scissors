@@ -1,0 +1,91 @@
+
+
+body {
+    font-family: 'Press Start 2P', cursive;
+    background-color: rgb(36, 4, 4);
+  }
+
+  h1 {
+    margin: 20px;
+    color: gray;
+    text-align: center;
+  }
+
+  h2 {
+    color: white;
+    text-align: center;
+    position: absolute;
+    font-size: 6em;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+ h3 {
+    color: gray;
+    text-align: center;
+    font-size: 1.5em;
+  }
+
+  p {
+    color: gray;
+    text-align: center;
+  }
+
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .game {
+    margin: 0 auto;
+    width: 1000px;
+  }
+
+  .scoreboard {
+      display: flex;
+      justify-content: space-between;
+      font-size: 2em;
+  }
+
+  .playerscore {
+      align-self: flex-end;
+  }
+
+  .rock {
+      background-image: url(rock.png);
+  }
+
+  .scissors {
+    background-image: url(scissors.png);
+  }
+
+.paper {
+    background-image: url(paper.png);
+  }
+ 
+.option {
+    outline: none;
+    border: 5px solid grey;
+    border-radius: 50%;
+    width: 280px;
+    height: 280px;
+    text-align: center;
+    margin: 10px;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.rock:active , .paper:active, .scissors:active {
+	position:relative;
+	top:1px;
+}
+
+.surf {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
