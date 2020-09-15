@@ -33,7 +33,7 @@ function endGame() {
 
     if (players[0][1] === 5 || players[1][1] === 5) {
         let winner = players[0][1] === 5 ? "COMPUTER" : "PLAYER";
-        end.innerText = `Game Over! The winner is ${winner}!`;
+        end.innerText = `Game Over! ${winner} wins!`;
         finished = true;
     }
 }
